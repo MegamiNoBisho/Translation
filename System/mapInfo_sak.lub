@@ -15,6 +15,22 @@ mapTbl = {
 		},
 		backgroundBmp = "dungeon_s2"
 	},
+	["1@bamn.rsw"] = {
+		displayName = "어스름밤의 정원",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "어스름밤의 정원"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["1@bamq.rsw"] = {
+		displayName = "비공정 거치장",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "비공정 거치장"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
 	["1@begi.rsw"] = {
 		displayName = "포링 마을",
 		notifyEnter = true,
@@ -160,12 +176,30 @@ mapTbl = {
 	["1@gef_in.rsw"] = {
 		displayName = "Geffen Magic Tournament"
 	},
+	["1@ghg.rsw"] = {
+		displayName = "오르투스 아콰",
+		notifyEnter = true,
+		signName = {
+			subTitle = "수상정원",
+			mainTitle = "오르투스 아콰"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["1@gl_he.rsw"] = {
 		displayName = "오염된 차원",
 		notifyEnter = true,
 		signName = {
 			subTitle = "글래스트헤임",
 			mainTitle = "오염된 차원"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["1@gl_he2.rsw"] = {
+		displayName = "이벤트모드 불완전한 차원",
+		notifyEnter = true,
+		signName = {
+			subTitle = "이벤트 모드",
+			mainTitle = "불완전한 차원"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -238,6 +272,14 @@ mapTbl = {
 		},
 		backgroundBmp = "noname_s2"
 	},
+	["1@herbs.rsw"] = {
+		displayName = "숨겨진 화원",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "숨겨진 화원"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
 	["1@infi.rsw"] = {
 		displayName = "Infinite Space",
 		notifyEnter = true,
@@ -269,6 +311,15 @@ mapTbl = {
 			mainTitle = "보르세브의 연구실"
 		},
 		backgroundBmp = "dungeon_s2"
+	},
+	["1@lost.rsw"] = {
+		displayName = "시간에게 잊혀진 사육장",
+		notifyEnter = true,
+		signName = {
+			subTitle = "로스트밸리",
+			mainTitle = "시간에게 잊혀진 사육장"
+		},
+		backgroundBmp = "dungeon"
 	},
 	["1@ma_b.rsw"] = {
 		displayName = "Bakonawa Hideout",
@@ -478,6 +529,15 @@ mapTbl = {
 		},
 		backgroundBmp = "dungeon_s2"
 	},
+	["1@thts.rsw"] = {
+		displayName = "타나토스 타워",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "타나토스 타워"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["1@tnm1.rsw"] = {
 		displayName = "Masin Tower Top floor",
 		notifyEnter = true,
@@ -609,6 +669,15 @@ mapTbl = {
 		},
 		backgroundBmp = "dungeon_s2"
 	},
+	["2@thts.rsw"] = {
+		displayName = "천사의 경고",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "천사의 경고"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["2@tower.rsw"] = {
 		displayName = "Endless Tower",
 		notifyEnter = true,
@@ -616,6 +685,15 @@ mapTbl = {
 			mainTitle = "엔들레스 타워 하층"
 		},
 		backgroundBmp = "dungeon_s2"
+	},
+	["3@thts.rsw"] = {
+		displayName = "증오의 기억",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "증오의 기억"
+		},
+		backgroundBmp = "dungeon"
 	},
 	["3@tower.rsw"] = {
 		displayName = "Endless Tower",
@@ -625,6 +703,15 @@ mapTbl = {
 		},
 		backgroundBmp = "dungeon_s2"
 	},
+	["4@thts.rsw"] = {
+		displayName = "고뇌의 기억",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "고뇌의 기억"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["4@tower.rsw"] = {
 		displayName = "Endless Tower",
 		notifyEnter = true,
@@ -632,6 +719,15 @@ mapTbl = {
 			mainTitle = "엔들레스 타워 상층"
 		},
 		backgroundBmp = "dungeon_s2"
+	},
+	["5@thts.rsw"] = {
+		displayName = "슬픔의 기억",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "슬픔의 기억"
+		},
+		backgroundBmp = "dungeon"
 	},
 	["5@tower.rsw"] = {
 		displayName = "Endless Tower",
@@ -641,8 +737,35 @@ mapTbl = {
 		},
 		backgroundBmp = "dungeon_s2"
 	},
+	["6@thts.rsw"] = {
+		displayName = "절망의 기억",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "절망의 기억"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["6@tower.rsw"] = {
 		displayName = "Endless Tower (Unknown Area)"
+	},
+	["7@thts.rsw"] = {
+		displayName = "분노의 기억",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "분노의 기억"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["8@thts.rsw"] = {
+		displayName = "타나토스 타워",
+		notifyEnter = true,
+		signName = {
+			subTitle = "타나토스의 기억",
+			mainTitle = "마검사 타나토스의 기억"
+		},
+		backgroundBmp = "dungeon"
 	},
 	["abbey01.rsw"] = {
 		displayName = "Cursed Abbey Dungeon F1",
@@ -695,6 +818,15 @@ mapTbl = {
 		signName = {
 			subTitle = "휘겔 어비스 호수",
 			mainTitle = "지하 동굴 3층"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["abyss_04.rsw"] = {
+		displayName = "Abyss Lakes Underground Cave F4",
+		notifyEnter = true,
+		signName = {
+			subTitle = "휘겔 어비스 호수",
+			mainTitle = "어비스 지하 동굴 4층"
 		},
 		backgroundBmp = "dungeon"
 	},
@@ -1055,6 +1187,98 @@ mapTbl = {
 		},
 		backgroundBmp = "village_s2"
 	},
+	["ba_2whs01.rsw"] = {
+		displayName = "저장고 타르타로스 상층",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "저장고 타르타로스 상층"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_2whs02.rsw"] = {
+		displayName = "저장고 타르타로스 하층",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "저장고 타르타로스 하층"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_bath.rsw"] = {
+		displayName = "대욕장 메디타티오",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "대욕장 메디타티오"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_chess.rsw"] = {
+		displayName = "체크메이트",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "체크메이트"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_go.rsw"] = {
+		displayName = "수상전장 (手相戰場)",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "수상전장 (手相戰場)"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_in01.rsw"] = {
+		displayName = "바르문트 저택 내부"
+	},
+	["ba_lib.rsw"] = {
+		displayName = "도서관 기억의 회랑",
+		notifyEnter = true,
+		signName = {
+			subTitle = "도서관",
+			mainTitle = "기억의 회랑"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["ba_lost.rsw"] = {
+		displayName = "사육장 로스트밸리",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "사육장 로스트밸리"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_maison.rsw"] = {
+		displayName = "바르문트 저택 정원",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "바르문트 저택 정원"
+		},
+		backgroundBmp = "noname_s2"
+	},
+	["ba_pw01.rsw"] = {
+		displayName = "제 1 마력발전소",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "제 1 마력발전소"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_pw02.rsw"] = {
+		displayName = "하수처리장",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "하수처리장"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ba_pw03.rsw"] = {
+		displayName = "제 2 마력발전소",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "제 2 마력발전소"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
 	["bat_a01.rsw"] = {
 		displayName = "Tierra Valley",
 		notifyEnter = true,
@@ -1406,6 +1630,7 @@ mapTbl = {
 		displayName = "Volcanic Island of Krakatoa",
 		notifyEnter = true,
 		signName = {
+			subTitle = "데와타",
 			mainTitle = "크라카토 화산섬"
 		},
 		backgroundBmp = "dungeon"
@@ -1414,6 +1639,7 @@ mapTbl = {
 		displayName = "Tina Grace Cave",
 		notifyEnter = true,
 		signName = {
+			subTitle = "데와타",
 			mainTitle = "이스타나 동굴"
 		},
 		backgroundBmp = "dungeon"
@@ -1606,6 +1832,14 @@ mapTbl = {
 		notifyEnter = true,
 		signName = {
 			mainTitle = "아인베흐 광산 2층"
+		},
+		backgroundBmp = "dungeon_s2"
+	},
+	["ein_dun03.rsw"] = {
+		displayName = "Mine Dungeon F3",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "아인베흐 광산 3층"
 		},
 		backgroundBmp = "dungeon_s2"
 	},
@@ -2395,7 +2629,7 @@ mapTbl = {
 		signName = {
 			mainTitle = "타나토스 타워 앞"
 		},
-		backgroundBmp = "field_2"
+		backgroundBmp = "field_s2"
 	},
 	["hu_fild02.rsw"] = {
 		displayName = "Hugel Field",
@@ -2419,7 +2653,7 @@ mapTbl = {
 		signName = {
 			mainTitle = "휘겔 필드"
 		},
-		backgroundBmp = "field_2"
+		backgroundBmp = "field_s2"
 	},
 	["hu_fild05.rsw"] = {
 		displayName = "The Abyss Lakes",
@@ -2427,7 +2661,7 @@ mapTbl = {
 		signName = {
 			mainTitle = "휘겔 어비스 호수"
 		},
-		backgroundBmp = "field_2"
+		backgroundBmp = "field_s2"
 	},
 	["hu_fild06.rsw"] = {
 		displayName = "Hugel Field",
@@ -2690,6 +2924,22 @@ mapTbl = {
 		},
 		backgroundBmp = "noname_s1"
 	},
+	["iz_d04_i.rsw"] = {
+		displayName = "심연의 해저동굴 상층",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "심연의 해저동굴 상층"
+		},
+		backgroundBmp = "dungeon"
+	},
+	["iz_d05_i.rsw"] = {
+		displayName = "심연의 해저동굴 하층",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "심연의 해저동굴 하층"
+		},
+		backgroundBmp = "dungeon"
+	},
 	["iz_dun00.rsw"] = {
 		displayName = "Undersea Tunnel F1",
 		notifyEnter = true,
@@ -2810,7 +3060,7 @@ mapTbl = {
 		notifyEnter = true,
 		signName = {
 			subTitle = "룬-미드가츠 왕국 프론테라 위성도시",
-			mainTitle = "이드루드"
+			mainTitle = "이즈루드"
 		},
 		backgroundBmp = "village"
 	},
@@ -2819,7 +3069,7 @@ mapTbl = {
 		notifyEnter = true,
 		signName = {
 			subTitle = "룬-미드가츠 왕국 프론테라 위성도시",
-			mainTitle = "이드루드"
+			mainTitle = "이즈루드"
 		},
 		backgroundBmp = "village"
 	},
@@ -2828,7 +3078,7 @@ mapTbl = {
 		notifyEnter = true,
 		signName = {
 			subTitle = "룬-미드가츠 왕국 프론테라 위성도시",
-			mainTitle = "이드루드"
+			mainTitle = "이즈루드"
 		},
 		backgroundBmp = "village"
 	},
@@ -2837,7 +3087,7 @@ mapTbl = {
 		notifyEnter = true,
 		signName = {
 			subTitle = "룬-미드가츠 왕국 프론테라 위성도시",
-			mainTitle = "이드루드"
+			mainTitle = "이즈루드"
 		},
 		backgroundBmp = "village"
 	},
@@ -3012,7 +3262,7 @@ mapTbl = {
 		signName = {
 			mainTitle = "유페로스 폐허 외부"
 		},
-		backgroundBmp = "dungeon_2"
+		backgroundBmp = "dungeon_s2"
 	},
 	["juperos_02.rsw"] = {
 		displayName = "The Ruins of Juperos F2",
@@ -3020,7 +3270,7 @@ mapTbl = {
 		signName = {
 			mainTitle = "유페로스 폐허 내부"
 		},
-		backgroundBmp = "dungeon_2"
+		backgroundBmp = "dungeon_s2"
 	},
 	["kh_dun01.rsw"] = {
 		displayName = "Robot Factory F1",
@@ -4188,6 +4438,14 @@ mapTbl = {
 			mainTitle = "난폭자의 상처 2층"
 		},
 		backgroundBmp = "dungeon_s2"
+	},
+	["odin_past.rsw"] = {
+		displayName = "Ancient Shirine of Odin",
+		notifyEnter = true,
+		signName = {
+			mainTitle = "고대 오딘 신전"
+		},
+		backgroundBmp = "field2_s2"
 	},
 	["odin_tem01.rsw"] = {
 		displayName = "Odin Shirine F1",
@@ -6917,7 +7175,7 @@ mapTbl = {
 		signName = {
 			mainTitle = "엘메스 플레투"
 		},
-		backgroundBmp = "field_2"
+		backgroundBmp = "field_s2"
 	},
 	["yuno_fild07.rsw"] = {
 		displayName = "El Mes Gorge (Valley of Abyss)",

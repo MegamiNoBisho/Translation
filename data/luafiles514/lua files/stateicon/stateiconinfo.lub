@@ -283,7 +283,7 @@ StateIconList[EFST_IDs.EFST_SHOUT] = {
 		{ "Crazy Uproar", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Increases STR" },
-		{ "Increases ATK" },
+		{ "Increases ATK" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ENERGYCOAT] = {
@@ -720,6 +720,15 @@ StateIconList[EFST_IDs.EFST_PROPERTYUNDEAD] = {
 		{ "Undead element" }
 	}
 }
+StateIconList[EFST_IDs.EFST_AURABLADE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "오라 블레이드", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "물리 공격력 증가" }
+	}
+}
 StateIconList[EFST_IDs.EFST_PARRYING] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
@@ -728,6 +737,16 @@ StateIconList[EFST_IDs.EFST_PARRYING] = {
 		{ "%s", COLOR_TIME },
 		{ "Adds chance to block enemy's attack" },
 		{ "when equipping a Two-Handed Sword" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LKCONCENTRATION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "컨센트레이션", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ATK, 명중률 증가" },
+		{ "물리  방어력 감소" }
 	}
 }
 StateIconList[EFST_IDs.EFST_TENSIONRELAX] = {
@@ -2281,16 +2300,6 @@ StateIconList[EFST_IDs.EFST_CURSEDCIRCLE_TARGET] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "주박진", COLOR_TITLE_DEBUFF },
-		{ "%s", COLOR_TIME },
-		{ "이동 및 공격 불가" },
-		{ "스킬 사용 불가" }
-	}
-}
-StateIconList[EFST_IDs.EFST_CURSEDCIRCLE_TARGET] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
-	descript = {
 		{ "Cursed Circle", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
 		{ "Disable action and movement within the range" },
@@ -2380,7 +2389,8 @@ StateIconList[EFST_IDs.EFST_SYMPHONY_LOVE] = {
 	descript = {
 		{ "Symphony of Lover", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Increases MDEF" }
+		{ "Increases MDEF" },
+		{ "염속성, 성속성 내성 상승" }
 	}
 }
 StateIconList[EFST_IDs.EFST_DEEP_SLEEP] = {
@@ -5062,7 +5072,7 @@ StateIconList[EFST_IDs.EFST_ATK_POPCORN] = {
 	descript = {
 		{ "공격력 증가", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "ATK 3% 증가." }
+		{ "ATK 10% 증가." }
 	}
 }
 StateIconList[EFST_IDs.EFST_MATK_POPCORN] = {
@@ -5071,7 +5081,7 @@ StateIconList[EFST_IDs.EFST_MATK_POPCORN] = {
 	descript = {
 		{ "마법 공격력 증가", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "MATK 3% 증가." }
+		{ "MATK 10% 증가." }
 	}
 }
 StateIconList[EFST_IDs.EFST_ASPD_POPCORN] = {
@@ -5421,9 +5431,10 @@ StateIconList[EFST_IDs.EFST_FLOWER_LEAF2] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "회피, 공격속도 증가, 변동 캐스팅 감소", COLOR_TITLE_BUFF },
+		{ "사냥꾼의 날렵함", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Flee 증가, 완전 회피 증가" },
+		{ "Flee + 30" },
+		{ "완전회피 + 2" },
 		{ "공격 속도 증가" },
 		{ "변동 캐스팅 감소" }
 	}
@@ -5445,5 +5456,119 @@ StateIconList[EFST_IDs.EFST_FLOWER_LEAF4] = {
 		{ "%s", COLOR_TIME },
 		{ "소형, 중형, 대형 적에게" },
 		{ "주는 데미지 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_MISTY_FROST] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "서리 상태", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME }
+	}
+}
+StateIconList[EFST_IDs.EFST_MAGIC_POISON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "마력 중독", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "모든 속성 공격에 대한 내성 50% 감소" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LUXANIMA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "럭스 아니마 룬 스톤 : 럭스 아니마", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "일반 근접 물리 공격 시, 확률적으로" },
+		{ "스톰 블래스트 1레벨 발동" },
+		{ "모든 크기의 적에게 주는 물리 데미지 증가" },
+		{ "크리티컬 데미지 증가" },
+		{ "근접 및 원거리 물리 데미지 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_BATH_FOAM_A] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "입욕제A", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "대욕장 메디타티오 던전 몬스터에게 주는" },
+		{ "물리/마법 데미지 5% 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_BATH_FOAM_B] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "입욕제B", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "대욕장 메디타티오 던전 몬스터에게 주는" },
+		{ "물리/마법 데미지 10% 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_BATH_FOAM_C] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "입욕제C", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "대욕장 메디타티오 던전 몬스터에게 주는" },
+		{ "물리/마법 데미지 15% 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_AROMA_OIL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "아로마 오일", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "대욕장 메디타티오 던전 몬스터에게 받는" },
+		{ "물리/마법 데미지 10% 감소" }
+	}
+}
+StateIconList[EFST_IDs.EFST_HELLS_PLANT_ARMOR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "헬즈 플랜트", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "주변 범위내 대상에게" },
+		{ "근접 물리 데미지" }
+	}
+}
+StateIconList[EFST_IDs.EFST_LOCKON_LASER] = {
+	descript = {
+		{ "포격 지점 설정", COLOR_TITLE_DEBUFF },
+		{ "일정 시간마다 포격 공격 지점 생성" }
+	}
+}
+StateIconList[EFST_IDs.EFST_REF_T_POTION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "골든 이그제", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "받는 반사 데미지 100% 감소" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ADD_ATK_DAMAGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "레드허브 액티베이션", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "근접 물리 데미지 15% 증가" },
+		{ "원거리 물리 데미지 15% 증가" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ADD_MATK_DAMAGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "블루허브 액티베이션", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "모든 속성 마법 데미지 15% 증가" }
 	}
 }
